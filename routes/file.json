@@ -1,0 +1,130 @@
+
+  [   
+       
+        {
+            "bio": "Following his father's death a boy leaves home to study in Calcutta, while his mother must face a life alone.",
+            "name": "Aparajito",
+            "language": [
+                "Bengali English"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0048956/mediaviewer/rm1172593920",
+            "country": "India",
+            "director": [
+                "Satyajit Ray"
+            ],
+            "genre": [
+                "Drama"
+            ],
+            "runtime": "110"
+        },
+        {
+            "bio": "In this melodrama a poverty-stricken woman raises her sons through many trials and tribulations. But no matter the strugglesalways sticks to her own moral code.",
+            "name": "Mother India",
+            "language": [
+                "Hindi"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0050188/mediaviewer/rm2011457792",
+            "country": "India",
+            "director": [
+                "Mehboob Khan"
+            ],
+            "genre": [
+                "Drama Musical Family"
+            ],
+            "runtime": "172"
+        },
+        {
+            "bio": "This final installment in Satyajit Ray's Apu Trilogy follows Apu's life as an orphaned adult aspiring to be a writer.",
+            "name": "Apur Sansar",
+            "language": [
+                "Bengali English"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0052572/mediaviewer/rm244664320",
+            "country": "India",
+            "director": [
+                "Satyajit Ray"
+            ],
+            "genre": [
+                "Drama"
+            ],
+            "runtime": "105"
+        },
+        {
+            "bio": "A 16th century prince falls in love with a court dancer and battles with his emperor father.",
+            "name": "Mughal-E-Azam",
+            "language": [
+                "Urdu"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0054098/mediaviewer/rm55480832",
+            "country": "India",
+            "director": [
+                "K. Asif"
+            ],
+            "genre": [
+                "Drama Romance War"
+            ],
+            "runtime": "197"
+        },
+        {
+            "bio": "A newly wedded husband plays a practical joke on his wife's family with full support from his wife and friends.",
+            "name": "Chupke Chupke",
+            "language": [
+                "Hindi"
+            ],
+            "poster_image_url": "https: //www.imdb.com/title/tt0072783/mediaviewer/rm3007116032",
+            "country": "India",
+            "director": [
+                "Hrishikesh Mukherjee"
+            ],
+            "genre": [
+                "Comedy Drama Romance"
+            ],
+            "runtime": "146"
+        },
+        {
+            "bio": "Vijay struggles as a dockworker. Eventually he becomes a leading figure of the underworld while his younger brother Ravi is an educated, upright policeman. This divide causes problems in their relationship.",
+            "name": "Deewaar",
+            "language": "Hindi",
+            "poster_image_url": "https://www.imdb.com/title/tt0072860/mediaviewer/rm3202388480",
+            "country": "India",
+            "director": [
+                "Yash Chopra"
+            ],
+            "genre": [
+                "Action Crime Drama"
+            ],
+            "runtime": "174"
+        },
+        {
+            "bio": "Three brothers are separated and united after many years - one is brought up a Hindu, another a Muslim and the last (and most memorable) a Christian. Hilarity and adventure ensues.",
+            "name": "Amar Akbar Anthony",
+            "language": [
+                "Hindi English"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0075669/mediaviewer/rm3052833281",
+            "country": "India",
+            "director": [
+                "Manmohan Desai"
+            ],
+            "genre": [
+                "Action Comedy Drama"
+            ],
+            "runtime": "184"
+        },
+        {
+            "bio": "Don, a wanted criminal dies in a police chase. DSP D'Silva is the only one who knows about his death, and to get hold of the gang he trains Don-lookalike Vijay. But Vijay faces danger from the police and from within the gang.",
+            "name": "Don",
+            "language": [
+                "Hindi"
+            ],
+            "poster_image_url": "https://www.imdb.com/title/tt0077451/mediaviewer/rm92856576",
+            "country": "India",
+            "director": [
+                "Chandra Barot"
+            ],
+            "genre": [
+                "Action Crime Thriller"
+            ],
+            "runtime": "175"
+        }
+    ]
