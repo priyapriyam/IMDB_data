@@ -6,6 +6,7 @@ const { table } = require('../model/database_connection');
 
 module.exports = (app) => {
     // 1
+    
     app.post('/post_data', (req, res) => {
         let list = []
         for (i = 0; i < movies_data.length; i++) {
@@ -34,6 +35,7 @@ module.exports = (app) => {
 
     })
     // 2
+
     app.get('/get_data', (req, res) => {
         knex.read_data()
             .then((data) => {
@@ -62,7 +64,8 @@ module.exports = (app) => {
 
     })
 
-    4
+    // 4
+
     app.get('/get_data/:language', (req, res) => {
         let language = req.params.language
         
@@ -80,6 +83,7 @@ module.exports = (app) => {
     })
 
     // 5
+
     app.get('/read_data/:genre', (req, res) => {
         let genre = req.params.genre
         knex.get_data_by_genre(genre)
@@ -95,6 +99,7 @@ module.exports = (app) => {
     })
 
     // 6
+
     app.get('/dataread/:runtime', (req, res) => {
         let runtime = req.params.runtime
         knex.get_data_by_runtime(runtime)
@@ -108,7 +113,7 @@ module.exports = (app) => {
             })
     })
 
-    7
+    // 7
     app.get('/readThedata/:director', (req, res) => {
         let director = req.params.director
         knex.reda_data_by_director_name(director)
@@ -144,6 +149,7 @@ module.exports = (app) => {
     })
 
     // 9
+
     app.put('/update_data/:name',(req,res)=>{
         let name = req.params.name
         let details = {
@@ -182,7 +188,8 @@ module.exports = (app) => {
             res.send(err)
         })
     })
-    11
+    // 11
+
     app.put('/update_data/:language',(req,res)=>{
         let language = req.params.language
         let movies_details = {
@@ -204,6 +211,7 @@ module.exports = (app) => {
     })
 
     // 12
+
     app.put('/editThedata/:director', (req, res) => {
         let director = req.params.director
         let details = {
@@ -239,6 +247,7 @@ module.exports = (app) => {
     })
 
     // 14
+
     app.delete('/remove_data/:genre', (req, res) => {
         let genre = req.params.genre
         knex.remove_data_by_genre(genre)
@@ -253,6 +262,7 @@ module.exports = (app) => {
 
         })
     // 15
+
     app.delete('/data_delete/:director',(req,res)=>{
         let director = req.params.director
         knex.remove_data_by_director(director)
@@ -266,6 +276,7 @@ module.exports = (app) => {
         })
     })
     // 16
+
     app.delete('/removeThedata/:name', (req, res) => {
         let name = req.params.name
         knex.delete_data_by_name(name)
@@ -280,6 +291,7 @@ module.exports = (app) => {
 
     })
     // 17
+
     app.delete('/deleteThedata/:language', (req, res) => {
         let language = req.params.language
         knex.delete_data_by_language(language)
@@ -293,16 +305,17 @@ module.exports = (app) => {
             })
         })
 
-    // 18
+    // 18  This api for pagination---------------------------------------------------
+
     app.get('/getDatabyid/:movies_id', (req, res) => {
         var movies_id = req.params.movies_id
         knex.get_data_by_movies_id(movies_id)
         .then((result) => {
-            console.log(result)
+            console.log("data is readble")
             res.send(result)
         })
         .catch((err) => {
-            console.log(err)
+            console.log("error")
             res.send(err)
 
         })

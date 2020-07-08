@@ -108,6 +108,8 @@ let delete_data_by_language = (language) =>{
 }
 
 // 18
+            // query for pagination--------------------------------------------
+
 let get_data_by_movies_id = (movies_id) =>{
     var id = (movies_id*10);
     var value =(id-10)
@@ -116,8 +118,8 @@ let get_data_by_movies_id = (movies_id) =>{
     
 }
 
-module.exports ={reda_data_by_director_name,inserted_data,read_data,update_data, delete_data,get_data_by_name,
-    get_data_by_language,get_data_by_genre,get_data_by_runtime,update_data_by_name,
-    update_data_by_genre,update_data_by_language,update_data_by_director_name,
-    remove_data_by_genre,remove_data_by_director,delete_data_by_name,delete_data_by_language,
+module.exports ={reda_data_by_director_name,inserted_data,read_data,update_data, delete_data,
+    get_data_by_name,get_data_by_language,get_data_by_genre,get_data_by_runtime,update_data_by_name,
+    update_data_by_genre,update_data_by_language,update_data_by_director_name,remove_data_by_genre,
+    remove_data_by_director,delete_data_by_name,delete_data_by_language,
     get_data_by_movies_id}
