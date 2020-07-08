@@ -1,10 +1,11 @@
 const knex = require('../model/database_connection')
 
 module.exports = (knex)
-knex.schema.hasTable("moveToCart").then((exists) => {
+knex.schema.hasTable("").then((exists) => {
     if (!exists) {
         return knex.schema.createTable("movies", (table) => {
-            table.string('bio'),
+                table.increments('movies_id' )
+                table.string('bio'),
                 table.string('name'),
                 table.string('language'),
                 table.string('poster_image_url'),
