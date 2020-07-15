@@ -6,7 +6,6 @@ const { table } = require('../model/database_connection');
 
 module.exports = (app) => {
     // 1
-    
     app.post('/post_data', (req, res) => {
         let list = []
         for (i = 0; i < movies_data.length; i++) {
@@ -321,6 +320,22 @@ module.exports = (app) => {
         })
 
     })
+
+    //19
+    app.get('/getDatabyid',(req,res) =>{
+        var page = req.query.page
+        knex.get_data_by_movies_id(page)
+        .then((result) => {
+            console.log("data is readble")
+            res.send(result)
+        })
+        .catch((err) => {
+            console.log("error")
+            res.send(err)
+
+        })
+    })
+
 
 }
 
